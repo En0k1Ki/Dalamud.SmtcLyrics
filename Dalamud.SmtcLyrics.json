@@ -1,0 +1,21 @@
+{
+  "Author": "SmtcLyrics",
+  "Name": "SMTC 歌词",
+  "InternalName": "Dalamud.SmtcLyrics",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "通过 Windows SMTC 获取当前播放曲目与播放进度，自动从网易云歌词接口或本地 .lrc 文件匹配歌词，并按播放进度在基本情报栏（DTR）逐行更新。支持点击切换显示内容（当前歌词/歌名/下一句）、悬停查看歌曲信息、暂停标记。数据只在本机处理。",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "SMTC",
+    "lyrics",
+    "歌词",
+    "DTR"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "监听 Windows 媒体会话（SMTC），把当前歌曲的歌词实时显示在 FF14 基本情报栏（DTR）",
+  "AcceptsFeedback": true
+}
